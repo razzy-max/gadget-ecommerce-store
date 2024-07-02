@@ -21,21 +21,21 @@ const ProductSmItem = ({ product }) => {
   return (
     <div className="tp-product-sm-item d-flex align-items-center">
       <div className="tp-product-thumb mr-25 fix">
-        <Link href={`/product-details/${_id}`}>
+        <div>
           <Image
             src={img}
             alt="product img"
             width={140}
             height={140}
           />
-        </Link>
+        </div>
       </div>
       <div className="tp-product-sm-content">
         <div className="tp-product-category">
           <a href="#">{category?.name}</a>
         </div>
         <h3 className="tp-product-title">
-          <Link href={`/product-details/${_id}`}>{title}</Link>
+          <div>{title}</div>
         </h3>
         <div className="tp-product-rating d-sm-flex align-items-center">
           <div className="tp-product-rating-icon">

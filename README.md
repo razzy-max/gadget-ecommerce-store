@@ -72,46 +72,43 @@ To get started with Shofy, follow these steps:
 1. Clone the repository:
 
    ```bash
-   https://github.com/Hamed-Hasan/shofy-ecommerce-client.git
+   https://github.com/ShuvoProgram/shofy-electronics-ecommerce.git
    ```
 
-2. Install dependencies:
+2. frontend directory:
+
+   ```bash
+   cd frontend
+   ```
+3. Install dependencies:
 
    ```bash
    npm install
    ```
 
-3. Configure environment variables.
+4. Configure environment variables.
 
-4. Build the project:
+5. Build the project:
 
    ```bash
    npm run build
    ```
 
-5. Start the server:
+6. Start the server:
 
    ```bash
    npm run dev
    ```
 
-6. Access the application at the specified URL.
+7. Access the application at the specified URL.
 
 ## Client Side Live Link
 
-[Shofy Client Side Live Link](https://shofy-front-end.vercel.app)
+[Shofy Client Side Live Link](https://shofy-e.vercel.app/)
 
 ## Server Side Live Link
 
 [Shofy Server Side Live Link](https://shofy-backend-dlt.vercel.app)
-
-## Client Side Repo
-
-[Shofy Client Side Repo](https://github.com/Hamed-Hasan/shofy-ecommerce-client.git)
-
-## Server Side Repo
-
-[Shofy Server Side Repo](https://github.com/Hamed-Hasan/shofy-ecommerce-backend.git)
 
 ## Sources and Credits
 
@@ -124,7 +121,7 @@ To get started with Shofy, follow these steps:
 
 We hope you find Shofy to be a powerful and effective solution for your eCommerce needs. Should you encounter
 
- any issues or have any questions, please feel free to reach out to our support team at swe.hamedhasan@gmail.com. Happy selling!
+ any issues or have any questions, please feel free to reach out to our support team at shuvoprogramer@gmail.com. Happy selling!
 
 
 

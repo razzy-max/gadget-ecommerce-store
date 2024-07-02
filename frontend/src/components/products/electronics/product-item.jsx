@@ -47,7 +47,7 @@ const ProductItem = ({ product, offer_style = false }) => {
           } tp-product-item transition-3`}
       >
         <div className="tp-product-thumb p-relative fix">
-          <Link href={`/product-details/${_id}`}>
+          <div>
             <Image
               src={img}
               width="0"
@@ -60,7 +60,7 @@ const ProductItem = ({ product, offer_style = false }) => {
             <div className="tp-product-badge">
               {status === 'out-of-stock' && <span className="product-hot">out-stock</span>}
             </div>
-          </Link>
+          </div>
 
           {/*  product action */}
           <div className="tp-product-action">
@@ -111,7 +111,7 @@ const ProductItem = ({ product, offer_style = false }) => {
             <a href="#">{category?.name}</a>
           </div>
           <h3 className="tp-product-title">
-            <Link href={`/product-details/${_id}`}>{title}</Link>
+            <div >{title}</div>
           </h3>
           <div className="tp-product-rating d-flex align-items-center">
             <div className="tp-product-rating-icon">

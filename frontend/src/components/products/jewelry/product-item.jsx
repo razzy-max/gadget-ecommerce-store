@@ -29,9 +29,9 @@ const ProductItem = ({ product }) => {
   return (
     <div className="tp-product-item-4 p-relative mb-40">
       <div className="tp-product-thumb-4 p-relative fix">
-        <Link href={`/product-details/${_id}`}>
+        <div>
           <Image src={img} alt="product img" width={284} height={352} />
-        </Link>
+        </div>
         <div className="tp-product-badge">
           {status === 'out-of-stock' && <span className="product-hot">out-stock</span>}
         </div>
@@ -78,7 +78,7 @@ const ProductItem = ({ product }) => {
       </div>
       <div className="tp-product-content-4">
         <h3 className="tp-product-title-4">
-          <Link href={`/product-details/${_id}`}>{title}</Link>
+          <div>{title}</div>
         </h3>
         <div className="tp-product-info-4">
           <p>{tags[0]}</p>

@@ -48,14 +48,14 @@ const ProductItem = ({ product, style_2 = false }) => {
   return (
     <div className={`tp-product-item-2 ${style_2 ? "" : "mb-40"}`}>
       <div className="tp-product-thumb-2 p-relative z-index-1 fix">
-        <Link href={`/product-details/${_id}`}>
+        <div>
           <Image
             src={img}
             alt="product img"
             width={284}
             height={302}
           />
-        </Link>
+        </div>
         <div className="tp-product-badge">
           {status === 'out-of-stock' && <span className="product-hot">out-stock</span>}
         </div>
@@ -119,7 +119,7 @@ const ProductItem = ({ product, style_2 = false }) => {
           ))}
         </div>
         <h3 className="tp-product-title-2">
-          <Link href={`/product-details/${_id}`}>{title}</Link>
+          <div>{title}</div>
         </h3>
         <div className="tp-product-rating-icon tp-product-rating-icon-2">
           <Rating allowFraction size={16} initialValue={ratingVal} readonly={true} />
