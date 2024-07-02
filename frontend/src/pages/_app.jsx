@@ -16,7 +16,7 @@ if (typeof window !== "undefined") {
 // stripePromise
 const NEXT_PUBLIC_STRIPE_KEY = 'pk_test_51M6BIWJiVHIFxYwiOXHKzmHAXm3QBTPca0ewQcX55zju2j0RNqj1wvQUI0GVE2B3Yvx94h7lvKFqC5dS8HhMoatY00ox5oPPtM';
 const stripePromise = loadStripe(NEXT_PUBLIC_STRIPE_KEY);
-const NEXT_PUBLIC_GOOGLE_CLIENT_ID = '1080687052400-2glmdp8psc3cj9gc9qvcer3f52ccube9.apps.googleusercontent.com'
+const NEXT_PUBLIC_GOOGLE_CLIENT_ID = '23455951198-r713jg4kfn9bnp8bs2trs5kk92tfubef.apps.googleusercontent.com'
 export default function App({ Component, pageProps }) {
   return (
     <GoogleOAuthProvider clientId={NEXT_PUBLIC_GOOGLE_CLIENT_ID}>
@@ -30,4 +30,3 @@ export default function App({ Component, pageProps }) {
     </GoogleOAuthProvider>
   )
 }
-// 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
