@@ -107,14 +107,41 @@ exports.getTopRatedProductService = async () => {
   return topRatedProducts;
 };
 
-// get product data
+
+// File path: services/productService.js
+
+/**
+ * Get product data along with populated reviews and user details
+ * @param {string} id - The ID of the product to retrieve
+ * @returns {Object|null} - Returns the product object if found, otherwise null
+ * @throws {Error} - Throws an error if the operation fails
+ */
 exports.getProductService = async (id) => {
-  const product = await Product.findById(id).populate({
-    path: "reviews",
-    populate: { path: "userId", select: "name email imageURL" },
-  });
-  return product;
+  if (!id) {
+    console.error("Product ID is required");
+    throw new Error("Product ID is required");
+  }
+
+  try {
+    const product = await Product.findById(id).populate({
+      path: "reviews",
+      populate: { path: "userId", select: "name email imageURL" },
+    });
+    console.log(product);
+    if (!product) {
+      console.warn(`Product not found for ID: ${id}`);
+      return null;  // Return null if product is not found
+    }
+
+    console.log(`Product found: ${JSON.stringify(product, null, 2)}`);
+    return product;
+  } catch (error) {
+    console.error(`Error fetching product with ID ${id}:`, error.message);
+    throw new Error("Error fetching product data");
+  }
 };
+
+
 
 // get product data
 exports.getRelatedProductService = async (productId) => {

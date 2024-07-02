@@ -4,6 +4,9 @@ const { ObjectId } = mongoose.Schema.Types;
 const validator = require("validator");
 
 const productsSchema = mongoose.Schema({
+  id: {
+    type: String
+  },
   sku: {
     type: String,
     required: false,

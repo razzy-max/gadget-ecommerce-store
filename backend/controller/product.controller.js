@@ -117,7 +117,21 @@ module.exports.getTopRatedProducts = async (req,res,next) => {
 // getSingleProduct
 exports.getSingleProduct = async (req,res,next) => {
   try {
-    const product = await productServices.getProductService(req.params.id)
+    if (!req.params.id) {
+      console.error("Product ID is required");
+      throw new Error("Product ID is required");
+    }
+    console.log(req.params.id);
+    // const id = await productServices.getProductService(req.params.id);
+    const product = await Product.findById(req.params.id).populate({
+      path: "reviews",
+      populate: { path: "userId", select: "name email imageURL" },
+    });
+    
+    if (!product) {
+      console.warn(`Product not found for ID: ${id}`);
+      return null;  // Return null if product is not found
+    }
     res.json(product)
   } catch (error) {
     next(error)

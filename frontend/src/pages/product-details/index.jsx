@@ -11,7 +11,7 @@ import ProductDetailsArea from '@/components/product-details/product-details-are
 import PrdDetailsLoader from '@/components/loader/prd-details-loader';
 
 const ProductDetailsPage = ({ query }) => {
-  const { data: product, isLoading, isError } = useGetProductQuery("6431364df5a812bd37e765ac");
+  const { data: product, isLoading, isError } = useGetProductQuery("641e887d05f9ee1717e134b7");
   // decide what to render
   let content = null;
   if (isLoading) {
