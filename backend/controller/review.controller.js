@@ -31,7 +31,7 @@ exports.addReview = async (req, res,next) => {
 
     // Create the new review
     const review = await Review.create(req.body);
-    // console.log('review-->',review)
+
 
     // Add the review to the product's reviews array
     const product = await Products.findById(productId);

@@ -129,7 +129,7 @@ exports.getRelatedProductService = async (productId) => {
 
 // update a product
 exports.updateProductService = async (id, currProduct) => {
-  // console.log('currProduct',currProduct)
+
   const product = await Product.findById(id);
   if (product) {
     product.title = currProduct.title;

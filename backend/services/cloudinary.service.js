@@ -2,15 +2,6 @@ const { secret } = require("../config/secret");
 const cloudinary = require("../utils/cloudinary");
 const { Readable } = require('stream');
 
-// cloudinary Image Upload
-// const cloudinaryImageUpload = async (image) => {
-//   console.log('image service',image)
-//   const uploadRes = await cloudinary.uploader.upload(image, {
-//     upload_preset: secret.cloudinary_upload_preset,
-//   });
-//   return uploadRes;
-// };
-
 const cloudinaryImageUpload = (imageBuffer) => {
   return new Promise((resolve, reject) => {
     const uploadStream = cloudinary.uploader.upload_stream(

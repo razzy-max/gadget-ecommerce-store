@@ -3,7 +3,7 @@ const { cloudinaryServices } = require("../services/cloudinary.service");
 
 // add image
 const saveImageCloudinary = async (req, res,next) => {
-  // console.log(req.file)
+ 
   try {
     const result = await cloudinaryServices.cloudinaryImageUpload(
       req.file.buffer

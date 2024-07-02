@@ -11,6 +11,7 @@ const ProductArea = () => {
   const [activeTab, setActiveTab] = useState("new");
   const {data:products,isError,isLoading,refetch} = 
   useGetProductTypeQuery({type:'electronics',query:`${activeTab}=true`});
+
   // handleActiveTab
   const handleActiveTab = (tab) => {
     setActiveTab(tab);
