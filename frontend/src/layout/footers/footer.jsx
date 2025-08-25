@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 // internal
-import logo from '@assets/img/logo/logo.svg';
+// import logo from '@assets/img/logo/logo-white11.svg';
 import pay from '@assets/img/footer/footer-pay.png';
 import social_data from '@/data/social-data';
 import { Email, Location } from '@/svg';
@@ -20,7 +20,7 @@ const Footer = ({ style_2 = false, style_3 = false,primary_style=false }) => {
                   <div className="tp-footer-widget-content">
                     <div className="tp-footer-logo">
                       <Link href="/">
-                        <Image src={logo} alt="logo" />
+                        <span style={{fontWeight:'bold',fontSize:'1.2rem'}}>Miracle Store</span>
                       </Link>
                     </div>
                     <p className="tp-footer-desc">We are a dynamic team of full stack developers and designers crafting high-quality web applications</p>
@@ -69,7 +69,7 @@ const Footer = ({ style_2 = false, style_3 = false,primary_style=false }) => {
                   <div className="tp-footer-widget-content">
                     <div className="tp-footer-talk mb-20">
                       <span>Got Questions? Call us</span>
-                      <h4><a href="tel:670-413-90-762">+01622064136</a></h4>
+                      <h4><a href="tel:2349061695599">+2349061695599</a></h4>
                     </div>
                     <div className="tp-footer-contact">
                       <div className="tp-footer-contact-item d-flex align-items-start">
@@ -79,7 +79,7 @@ const Footer = ({ style_2 = false, style_3 = false,primary_style=false }) => {
                           </span>
                         </div>
                         <div className="tp-footer-contact-content">
-                          <p><a href="mailto:shofy@support.com">shuvoprogramer@gmail.com</a></p>
+                          <p><a href="mailto:eghosaumhoera@gmail.com">eghosaumhoera@gmail.com</a></p>
                         </div>
                       </div>
                       <div className="tp-footer-contact-item d-flex align-items-start">
@@ -89,7 +89,7 @@ const Footer = ({ style_2 = false, style_3 = false,primary_style=false }) => {
                           </span>
                         </div>
                         <div className="tp-footer-contact-content">
-                          <p><a href="https://www.google.com/maps/place/Sleepy+Hollow+Rd,+Gouverneur,+NY+13642,+USA/@44.3304966,-75.4552367,17z/data=!3m1!4b1!4m6!3m5!1s0x4cccddac8972c5eb:0x56286024afff537a!8m2!3d44.3304928!4d-75.453048!16s%2Fg%2F1tdsjdj4" target="_blank">Savar <br /> Dhaka, Bangladesh</a></p>
+                          <p><a href="https://www.google.com/maps/place/Lagos,+Nigeria" target="_blank">Lagos, Nigeria</a></p>
                         </div>
                       </div>
                     </div>

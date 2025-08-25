@@ -1,9 +1,9 @@
-# Shofy – Full Stack eCommerce Web Application + Admin Panel
+# Miracle store – Full Stack eCommerce Web Application + Admin Panel
 
 
-![Shofy Image Banner](https://shorturl.at/oNJu5)
+![Miracle store Image Banner](https://shorturl.at/oNJu5)
 
-Shofy is a powerful and modern full stack eCommerce web application built using Next.js, Express.js, MongoDB with Mongoose, Redux Toolkit, RTK Query, Stripe payment method, Bootstrap 5, and Sass. It includes a feature-rich admin panel for easy management and control of your online store.
+Miracle store is a powerful and modern full stack eCommerce web application built using Next.js, Express.js, MongoDB with Mongoose, Redux Toolkit, RTK Query, Stripe payment method, Bootstrap 5, and Sass. It includes a feature-rich admin panel for easy management and control of your online store.
 
 ## Features Overview
 
@@ -13,7 +13,7 @@ Shofy is a powerful and modern full stack eCommerce web application built using 
 - **Mongoose:** Mongoose provides a straightforward, schema-based solution to model your application data, offering built-in type casting, validation, and query building.
 - **Stripe:** Stripe offers online payment solutions, allowing you to create a secure and reliable website with e-commerce functionality.
 - **Nodemailer:** Nodemailer is a module for Node.js applications that facilitates easy email sending, keeping your users informed and engaged.
-- **Authentication:** Shofy includes features for Google login, user registration, email verification, forgot password, reset password, and profile updates.
+- **Authentication:** Miracle store includes features for Google login, user registration, email verification, forgot password, reset password, and profile updates.
 - **Redux Toolkit:** Manage state effortlessly with Redux Toolkit, providing a convenient and efficient way to handle state in your application.
 - **RTK Query:** RTK Query is a powerful data fetching and caching tool, ensuring efficient data retrieval for a smoother user experience.
 - **Typescript + Next.js App Directory:** Shofy leverages TypeScript in combination with Next.js, enhancing code reliability and maintainability.
@@ -104,11 +104,11 @@ To get started with Shofy, follow these steps:
 
 ## Client Side Live Link
 
-[Shofy Client Side Live Link](https://shofy-e.vercel.app/)
+[Miracle store Client Side Live Link](https://shofy-e.vercel.app/)
 
 ## Server Side Live Link
 
-[Shofy Server Side Live Link](https://shofy-backend-dlt.vercel.app)
+[Miracle store Server Side Live Link](https://shofy-backend-dlt.vercel.app)
 
 ## Sources and Credits
 
@@ -119,9 +119,9 @@ To get started with Shofy, follow these steps:
 
 ## Thank You for Choosing Shofy!
 
-We hope you find Shofy to be a powerful and effective solution for your eCommerce needs. Should you encounter
+We hope you find Miracle store to be a powerful and effective solution for your eCommerce needs. Should you encounter
 
- any issues or have any questions, please feel free to reach out to our support team at shuvoprogramer@gmail.com. Happy selling!
+ any issues or have any questions, please feel free to reach out to our support team at eghosaumhoera@gmail.com. Happy selling!
 
 
 

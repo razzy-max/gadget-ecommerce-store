@@ -132,6 +132,8 @@ exports.confirmEmail = async (req, res,next) => {
       });
     }
 
+            console.error('Registration failed: General error:', error.message);
+            res.status(500).send({ status: "failed", message: "General error", error: error.message });
     user.status = "active";
     user.confirmationToken = undefined;
     user.confirmationTokenExpires = undefined;
