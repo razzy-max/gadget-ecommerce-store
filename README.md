@@ -1,8 +1,5 @@
 # Miracle store – Full Stack eCommerce Web Application + Admin Panel
 
-
-![Miracle store Image Banner](https://shorturl.at/oNJu5)
-
 Miracle store is a powerful and modern full stack eCommerce web application built using Next.js, Express.js, MongoDB with Mongoose, Redux Toolkit, RTK Query, Stripe payment method, Bootstrap 5, and Sass. It includes a feature-rich admin panel for easy management and control of your online store.
 
 ## Features Overview
@@ -104,20 +101,13 @@ To get started with Shofy, follow these steps:
 
 ## Client Side Live Link
 
-[Miracle store Client Side Live Link](https://shofy-e.vercel.app/)
-
-## Server Side Live Link
-
-[Miracle store Server Side Live Link](https://shofy-backend-dlt.vercel.app)
-
-## Sources and Credits
 
 - Twitter Bootstrap
 - Swiper Slider
 - Google Fonts
 - Free Font Awesome Icons by Fontawesome
 
-## Thank You for Choosing Shofy!
+## Thank You for Choosing !
 
 We hope you find Miracle store to be a powerful and effective solution for your eCommerce needs. Should you encounter
 
