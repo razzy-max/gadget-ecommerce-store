@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { useDispatch, useSelector } from 'react-redux';
 import Link from 'next/link';
 import Menus from './header-com/menus';
-// import logo from '@assets/img/logo/logo-white11.svg';
+// import logo from '@assets/img/logo/logo-white11.png';
 import useSticky from '@/hooks/use-sticky';
 import useCartInfo from '@/hooks/use-cart-info';
 import { openCartMini } from '@/redux/features/cartSlice';
